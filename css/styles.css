@@ -149,6 +149,18 @@ li {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+.overlay {
+ max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)), 
+  url(/images/Img-hero.jpeg),
+  url(/images/Bg-hero.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 .button-hero {
   color: var(--hero-text-color);
@@ -173,7 +185,6 @@ li {
 }
 
 /* фічі (benefits) */
-
 .benefits-section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -190,6 +201,29 @@ li {
 
 .benefit-item {
   width: 270px;
+}
+
+.benefit-item::before {
+  content: "" ;
+  display: block;
+  height: 120px;
+  margin-bottom: 30px;
+  background: #F5F4FA;
+border-radius: 4px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.icon-antenna::before {
+  background-image: url(../images/antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(../images/clock.svg);
+}
+.icon-diagram::before {
+  background-image: url(../images/diagram.svg);
+}
+.icon-astronaut::before {
+  background-image: url(../images/astronaut.svg);
 }
 
 .benefits {
@@ -272,6 +306,26 @@ li {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+/* Постійні клієнти */
+.client-list {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.client-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
+.client-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Footer */
