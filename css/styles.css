@@ -307,6 +307,8 @@ border-radius: 4px;
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+
 /* Постійні клієнти */
 .client-list {
   padding-top: 94px;
@@ -327,6 +329,19 @@ border-radius: 4px;
 .client-item:not(:last-child) {
   margin-right: 30px;
 }
+.client-link {
+  display: block;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+
+.icon {
+padding: 0px;
+fill: red;
+}
+
+/* ховер */
+/* fill="#2196f3" */
 
 /* Footer */
 .footer {
