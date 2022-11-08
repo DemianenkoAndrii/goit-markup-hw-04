@@ -126,7 +126,7 @@ button {
 
 .ico :hover,
 .ico :focus {
-  color: var(--accent-text-color);
+  fill: var(--accent-text-color);
 }
 
 li {
@@ -343,7 +343,7 @@ li {
 /* Постійні клієнти */
 .client-list {
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
 }
 .clients {
   display: flex;
@@ -374,13 +374,13 @@ li {
   border-radius: 4px;
 }
 
-.ico {
+.icon {
   padding: 0px;
   fill: var(--icon-color);
 }
 
-.ico:hover,
-.ico:focus {
+.icon:hover,
+.icon:focus {
   fill: var(--accent-text-color);
 }
 
