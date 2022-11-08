@@ -103,10 +103,14 @@ button {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contacts .link-contact {
   color: var(--title-text-color);
+  padding: 32px 0px;
 }
 
 .link-contact:hover,
@@ -114,14 +118,10 @@ button {
   color: var(--accent-text-color);
 }
 
-.mail {
-  margin-right: 50px;
-}
-
 .ico {
   margin-right: 10px;
   object-position: center;
-  fill: var(--title-text-color);
+  fill: currentColor;
 }
 
 .ico :hover,
