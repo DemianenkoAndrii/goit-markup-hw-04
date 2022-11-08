@@ -353,8 +353,6 @@ li {
 .client-item {
   width: 170px;
   height: 92px;
-  border: 1px solid var(--icon-color);
-  border-radius: 4px;
 }
 
 .client-item:not(:last-child) {
@@ -367,6 +365,9 @@ li {
   width: 100%;
   height: 100%;
   cursor: pointer;
+  color: var(--icon-color);
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
 }
 
 .client-item:hover {
@@ -376,7 +377,7 @@ li {
 
 .icon {
   padding: 0px;
-  fill: var(--icon-color);
+  fill: currentColor;
 }
 
 .icon:hover,
