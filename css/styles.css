@@ -370,9 +370,11 @@ li {
   border-radius: 4px;
 }
 
-.client-item:hover {
+.client-link:hover,
+.client-link:focus {
   border: 1px solid var(--accent-text-color);
   border-radius: 4px;
+  color: var(--accent-text-color);
 }
 
 .icon {
@@ -380,10 +382,6 @@ li {
   fill: currentColor;
 }
 
-.icon:hover,
-.icon:focus {
-  fill: var(--accent-text-color);
-}
 
 /* Footer */
 .footer {
